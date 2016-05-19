@@ -7,13 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<header>
-		<%= link_to "Post a poster", new_post_path %>
-		<% if user_signed_in? %>
-		<%= current_user.email %>
-		<% end %>
-	</header>
-
+	<%= render "layouts/header" %>
 	<p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
 
