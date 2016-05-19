@@ -4,5 +4,5 @@ class Post < ActiveRecord::Base
 
 	belongs_to :user
 
-	delegate :username, to: :user
+	delegate :username, to: :user, allow_nil: true
 end   
