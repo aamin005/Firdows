@@ -13,6 +13,8 @@ gem 'bootstrap-sass', '~> 3.2.0'
 gem 'sass-rails', '>= 3.2'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'carrierwave', '~> 0.11.2'
+
 group :development, :test do
   gem 'byebug'
   gem 'rspec-rails', '~>3.4.0'
