@@ -14,6 +14,7 @@ gem 'sass-rails', '>= 3.2'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'carrierwave', '~> 0.11.2'
+gem 'mini_magick', '~> 4.5.0'
 
 group :development, :test do
   gem 'byebug'

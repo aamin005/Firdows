@@ -6,4 +6,6 @@ class User < ActiveRecord::Base
   has_many :posts, dependent: :destroy
 
   validates :username, presence: true
+
+  mount_uploader :avatar, AvatarUploader
 end
